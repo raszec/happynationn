@@ -1,0 +1,259 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fff8e7;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+header {
+  background: linear-gradient(90deg, #ff0000, #ff9900);
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.logo {
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.product-card {
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.price {
+  color: #e60000;
+  font-size: 1.8em;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.description {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.btn-finalizar {
+  display: inline-block;
+  background: #ffcc00;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  transition: 0.3s;
+  font-size: 1.1em;
+}
+
+.btn-finalizar:hover {
+  background: #ff9900;
+  transform: scale(1.05);
+}
+
+.form-section, .payment-section {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  width: 380px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: 600;
+  color: #333;
+}
+
+input {
+  padding: 10px;
+  border: 2px solid #ffcc00;
+  border-radius: 8px;
+  font-size: 1em;
+  margin-top: 5px;
+}
+
+.btn-confirmar, .btn-pix {
+  margin-top: 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-confirmar:hover, .btn-pix:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #ff0000;
+  color: white;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fff8e7;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+header {
+  background: linear-gradient(90deg, #ff0000, #ff9900);
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.logo {
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.product-card {
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.price {
+  color: #e60000;
+  font-size: 1.8em;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.description {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.btn-finalizar {
+  display: inline-block;
+  background: #ffcc00;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  transition: 0.3s;
+  font-size: 1.1em;
+}
+
+.btn-finalizar:hover {
+  background: #ff9900;
+  transform: scale(1.05);
+}
+
+.form-section, .payment-section, .qrcode-section {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  width: 380px;
+  text-align: center;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: 600;
+  color: #333;
+}
+
+input {
+  padding: 10px;
+  border: 2px solid #ffcc00;
+  border-radius: 8px;
+  font-size: 1em;
+  margin-top: 5px;
+}
+
+.btn-confirmar, .btn-pix {
+  margin-top: 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.btn-confirmar:hover, .btn-pix:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
+.qrcode-img {
+  width: 220px;
+  margin: 20px 0;
+  border: 4px solid #ffcc00;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #ff0000;
+  color: white;
+  font-weight: bold;
+  font-size: 0.9em;
+}
